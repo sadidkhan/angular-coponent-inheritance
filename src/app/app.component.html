@@ -1,0 +1,17 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<button (click)="button = 1; count = 0;"> Acomponent</button>
+<button (click)="button = 2; count = 0;"> Bcomponent</button>
+
+
+<ng-container *ngIf="button === 1">
+<app-a></app-a>
+
+</ng-container>
+
+<ng-container *ngIf="button === 2">
+<app-b></app-b>
+
+</ng-container>

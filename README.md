@@ -60,10 +60,6 @@ This project demonstrates Angular component inheritance by implementing:
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-coponent-inheritance)
 
-## 📁 Project Structure
-src/ ├── app/ │ ├── base/ │ │ ├── base.component.ts # Base component with shared logic │ │ └── base.component.html │ ├── a/ │ │ ├── a.component.ts # Child component A │ │ └── a.component.html │ ├── b/ │ │ ├── b.component.ts # Child component B
-│ │ └── b.component.html │ ├── app.service.ts # Shared service │ ├── app.component.ts # Main app component │ └── app.module.ts └── ...
-
 ## 💡 Learning Outcomes
 
 After exploring this project, you'll understand:
